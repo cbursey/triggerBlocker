@@ -1,0 +1,41 @@
+<!doctype html>
+
+<html>
+  <head>
+    <title>Trigger Blocker's Popup</title>
+    <link rel="stylesheet" type="text/css" href="popup.css" />
+    <script src="popup.js"></script>
+    <script src="bower_components/underscore/underscore.js"></script>
+  </head>
+
+  <body>
+    <div id="popup">
+      <form id="block-form" action="" method="">
+        <label>
+          <input type="checkbox" id="block-all" name="block-all"/>
+          <span id="hideAll">
+            Hide all posts with trigger/content warnings?
+          </span>
+        </label>
+        <span id="viewMenu">
+          <select id="viewType">
+            <option value="Minimize">Minimize</option>
+            <option value="Remove">Remove</option>
+          <select>
+          filtered posts
+        </select>
+        <br/>
+        <label id="addWords">
+          Add a word to the filter:
+          <input type="text" id="inputBox" maxlength=21>  <button id="addButton">Add</button>
+      <button id="listDisplay">Hide List</button>
+      <div id="list">
+        <p id="listHeader">Filtered words:</p>
+          <div id="terms">
+          </div>
+        </div>
+      </form>
+    </div>
+    <script src="controller.js"></script>
+  </body>
+</html>

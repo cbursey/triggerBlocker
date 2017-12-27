@@ -1,0 +1,16 @@
+{
+  "name": "triggerblocker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "block.js",
+  "dependencies": {
+    "requirejs": "^2.3.5",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cortlandt Bursey-Reece",
+  "license": "ISC"
+}
